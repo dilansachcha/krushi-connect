@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/natural_green_bg"
+    android:padding="16dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="8dp"
+                android:padding="24dp"
+                android:backgroundTint="#A5D6A7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Profile"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:textColor="#1B5E20"
+                        android:gravity="center"
+                        android:paddingBottom="20dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Customer Name"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/custom_edittext"
+                        android:padding="10dp"
+                        android:layout_marginBottom="12dp">
+
+                        <EditText
+                            android:id="@+id/etUsername"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:hint="Username"
+                            android:textColorHint="#1B5E20"
+                            android:enabled="false"
+                            android:background="@null" />
+
+                        <ImageView
+                            android:id="@+id/ivEditUsername"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_edit"
+                            android:padding="6dp"
+                            android:clickable="true"
+                            android:focusable="true"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email (Non - Editable)"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+
+                    <EditText
+                        android:id="@+id/etEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Email"
+                        android:textColorHint="#1B5E20"
+                        android:background="@drawable/custom_edittext"
+                        android:enabled="false"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/custom_edittext"
+                        android:padding="10dp"
+                        android:layout_marginBottom="12dp">
+
+                        <EditText
+                            android:id="@+id/etMobile"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:hint="Mobile Number"
+                            android:textColorHint="#1B5E20"
+                            android:enabled="false"
+                            android:background="@null"/>
+
+                        <ImageView
+                            android:id="@+id/ivEditMobile"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_edit"
+                            android:padding="6dp"
+                            android:clickable="true"
+                            android:focusable="true"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="8dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Street"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:padding="10dp"
+                        android:background="@drawable/custom_edittext"
+                        android:layout_marginBottom="12dp">
+
+                        <EditText
+                            android:id="@+id/etStreet"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:hint="Street"
+                            android:textColorHint="#1B5E20"
+                            android:enabled="false"
+                            android:background="@null"/>
+
+                        <ImageView
+                            android:id="@+id/ivEditAddress"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/ic_edit"
+                            android:padding="6dp"
+                            android:clickable="true"
+                            android:focusable="true"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Housing No."
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+                    <EditText
+                        android:id="@+id/etHousingNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="House No."
+                        android:background="@drawable/custom_edittext"
+                        android:textColorHint="#1B5E20"
+                        android:enabled="false"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="city"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+                    <EditText
+                        android:id="@+id/etCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="City"
+                        android:background="@drawable/custom_edittext"
+                        android:textColorHint="#1B5E20"
+                        android:enabled="false"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="District"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+                    <EditText
+                        android:id="@+id/etDistrict"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="District"
+                        android:background="@drawable/custom_edittext"
+                        android:textColorHint="#1B5E20"
+                        android:enabled="false"
+                        android:layout_marginBottom="12dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Postal Code"
+                        android:textSize="13sp"
+                        android:paddingLeft="5dp"
+                        android:textStyle="italic"
+                        android:textColor="#1B5E20"
+                        android:paddingBottom="4dp"/>
+
+                    <EditText
+                        android:id="@+id/etPostalCode"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:hint="Postal Code"
+                        android:background="@drawable/custom_edittext"
+                        android:textColorHint="#1B5E20"
+                        android:enabled="false"
+                        android:layout_marginBottom="16dp"/>
+
+                    <Button
+                        android:id="@+id/btnSaveChanges"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Save Changes"
+                        android:backgroundTint="#4F9920"
+                        android:textColor="@android:color/white"
+                        android:visibility="gone"
+                        android:layout_marginTop="12dp"/>
+
+                    <Button
+                        android:id="@+id/btnChangePassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Change Password"
+                        android:backgroundTint="#1B5E20"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="12dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:indeterminate="true"/>
+
+</RelativeLayout>

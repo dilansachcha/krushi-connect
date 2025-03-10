@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_products"
+            android:title="My Added Products"
+            android:icon="@drawable/ic_products" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:title="My Ordered Products"
+            android:icon="@drawable/ic_orders" />
+        <item
+            android:id="@+id/nav_add_product"
+            android:title="Add Product"
+            android:icon="@drawable/ic_add" />
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout"/>
+</menu>

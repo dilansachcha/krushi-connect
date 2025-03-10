@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#B62F2F</color>
+    <color name="light_grey">#666262</color>
+
+    <!--Light Theme-->
+    <color name="your_custom_primary_color">#3FA830</color>
+    <color name="your_custom_primary_variant">#67E03F</color>
+
+    <!--Night Mode-->
+    <color name="dark_primary">#063309</color>
+    <color name="dark_primary_variant">#01160B</color>
+
+    <color name="natural_green_bg">#E8F5E9</color>
+    <color name="dark_green">#2E7D32</color>
+    <color name="light_green_bg">#C8E6C9</color>
+    <color name="medium_green">#66BB6A</color>
+    <color name="purple_500">#441895</color>
+    <color name="teal_700">#145080</color>
+</resources>

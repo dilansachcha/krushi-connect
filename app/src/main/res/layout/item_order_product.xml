@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:paddingStart="8dp">
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chickpea"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvBoughtQuantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity: 1.5kg"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs. 600"
+            android:textColor="@color/red"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvFarmerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Farmer: Alex Pereira"
+            android:textColor="@color/medium_green"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvFarmerCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City: Kottawa"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvFarmerMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile: 0788888999"
+            android:textSize="14sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnCallFarmer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call Farmer"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:layout_marginBottom="6dp"/>
+
+        <Button
+            android:id="@+id/btnSeeRoute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See Route"
+            android:textSize="12sp"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

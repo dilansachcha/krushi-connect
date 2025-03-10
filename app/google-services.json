@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "666017301750",
+    "project_id": "krushiconnect-6fcc4",
+    "storage_bucket": "krushiconnect-6fcc4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666017301750:android:0e51b40191ba2383d8d8d7",
+        "android_client_info": {
+          "package_name": "lk.fortyfourss.krushiconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUmVcxi2n3-QJgd_AitfIbFLbYxhU3EtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

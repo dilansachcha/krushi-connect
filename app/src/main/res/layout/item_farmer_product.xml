@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewProduct"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+
+        <ImageView
+            android:id="@+id/ivProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image"/>
+
+        <TextView
+            android:id="@+id/tvProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tvProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: Rs. 0/kg"
+            android:textSize="16sp"
+            android:textColor="@color/red"/>
+
+        <TextView
+            android:id="@+id/tvStockLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stock (Kg):"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:paddingTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingTop="4dp">
+
+
+            <EditText
+                android:id="@+id/etProductStock"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Stock: 0 kg"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:enabled="false"
+                android:background="@null"
+                android:padding="8dp"/>
+
+            <ImageView
+                android:id="@+id/ivEditStock"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_edit"
+                android:contentDescription="Edit Stock"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvProductStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Pending"
+            android:textSize="16sp"
+            android:textColor="@color/medium_green"
+            android:paddingTop="4dp"/>
+
+        <Button
+            android:id="@+id/btnUpdateStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Stock"
+            android:textSize="16sp"
+            android:background="@color/medium_green"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

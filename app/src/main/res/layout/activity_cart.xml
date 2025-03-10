@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/natural_green_bg">
+
+    <TextView
+        android:id="@+id/tvCartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Cart"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:paddingBottom="12dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewCart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Delivery Method:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_green"
+        android:paddingTop="12dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerDeliveryOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:backgroundTint="@color/medium_green"
+        android:popupBackground="@color/dark_green"/>
+
+    <TextView
+        android:id="@+id/tvDeliveryFee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Fee: Rs. 500.00"
+        android:textSize="16sp"
+        android:textColor="@color/dark_green"
+        android:visibility="gone"
+        android:paddingTop="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/tvGrandTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grand Total: Rs. 0.00"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Checkout"
+            android:backgroundTint="@color/dark_green"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

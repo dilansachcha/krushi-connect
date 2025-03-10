@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@android:color/background_dark">
+
+    <TextView
+        android:id="@+id/tvOrderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order ID: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Your Issue:"
+        android:textSize="14sp"
+        android:paddingBottom="4dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerIssue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundTint="@color/dark_primary"
+        android:background="@drawable/button_rounded"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Describe Your Issue:"
+        android:textSize="14sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter details..."
+        android:textColor="@color/black"
+        android:minHeight="100dp"
+        android:background="@android:drawable/editbox_background"/>
+
+    <Button
+        android:id="@+id/btnSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Image (Optional)"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/dark_green"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/ivUploadImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/btnSubmitDispute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Dispute"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/red"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">KrushiConnect</string>
+    <string name="textView2">Your One-Stop Online Marketplace for Freshest Goods, Straight from Farmers</string>
+    <string name="si_mobile">Enter Your Mobile</string>
+    <string name="si_pw">Enter Your Mobile</string>
+    <string name="navigation_open">Open Navigation</string>
+    <string name="navigation_close">Close Navigation</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_location_picker">LocationPickerActivity</string>
+    <string-array name="order_status_options">
+        <item>Paid</item>
+        <item>Completed</item>
+    </string-array>
+    <string-array name="filter_options">
+        <item>Newest</item>
+        <item>Price Low to High</item>
+        <item>Price High to Low</item>
+    </string-array>
+    <string-array name="product_status_options">
+        <item>Paid</item>
+        <item>Completed</item>
+    </string-array>
+</resources>
