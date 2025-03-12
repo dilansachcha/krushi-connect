@@ -60,26 +60,25 @@ _Add high-quality screenshots here_
 Follow these steps to **clone, set up, and run** Krushi-Connect:
 ```bash
 
-### **1️⃣ Clone the Repository**
-git clone https://github.com/dilansachcha/krushi-connect.git
-cd krushi-connect
+1. Clone the Repository
+- git clone https://github.com/dilansachcha/krushi-connect.git
+- cd krushi-connect
 
-### **2️⃣ Open in Android Studio**
-# Open Android Studio
-# Click "Open an Existing Project"
-# Select the "krushi-connect" folder
+2. Open in Android Studio
+- Open Android Studio
+- Click "Open an Existing Project"
+- Select the "krushi-connect" folder
 
-### **3️⃣ Setup Firebase**
-# Go to Firebase Console → Create a new project
-# Enable Authentication, Firestore Database, and Storage
-# Download the google-services.json file and place it in:
-app/src/main/
+3. Setup Firebase
+- Go to Firebase Console → Create a new project
+- Enable Authentication, Firestore Database, and Storage
+- Download the google-services.json file and place it in: app/src/main/
 
-### **4️⃣ Build & Run**
-# Open Android Studio
-# Click "Run" ▶️
-# Select a device (Emulator/Physical)
-# The app should launch successfully 🚀
+4. Build & Run
+- Open Android Studio
+- Click "Run"
+- Select a device (Emulator/Physical)
+- The app should launch successfully 🚀
 
 ```
 ---
