@@ -2,7 +2,7 @@
   <img src="https://github.com/dilansachcha/krushi-connect/blob/main/krshcnnct.png?raw=true" width="150">
 </p>
 
-<h1 align="center">🌾 Krushi-Connect 🚀</h1>
+<h1 align="center">Krushi-Connect 🌾 </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android-green">
