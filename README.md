@@ -1,13 +1,15 @@
 # 🌾 Krushi-Connect 
-![Android](https://img.shields.io/badge/Platform-Android-green)  
-![Java](https://img.shields.io/badge/Code-Java-blue)  
-![XML](https://img.shields.io/badge/UI-XML-blueviolet)  
-![Firebase](https://img.shields.io/badge/Backend-Firebase-orange)  
-![Authentication](https://img.shields.io/badge/Auth-FirebaseAuth-yellow)  
-![Database](https://img.shields.io/badge/Database-Firestore-red)  
-![Storage](https://img.shields.io/badge/Storage-FirebaseStorage-purple)  
-![Editor](https://img.shields.io/badge/IDE-Android%20Studio-brightgreen)  
-![Category](https://img.shields.io/badge/Type-M--Commerce-lightgrey)  
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-green">
+  <img src="https://img.shields.io/badge/Code-Java-blue">
+  <img src="https://img.shields.io/badge/UI-XML-blueviolet">
+  <img src="https://img.shields.io/badge/Backend-Firebase-orange">
+  <img src="https://img.shields.io/badge/Auth-FirebaseAuth-yellow">
+  <img src="https://img.shields.io/badge/Database-Firestore-red">
+  <img src="https://img.shields.io/badge/Storage-FirebaseStorage-purple">
+  <img src="https://img.shields.io/badge/IDE-Android%20Studio-brightgreen">
+  <img src="https://img.shields.io/badge/Type-M--Commerce-lightgrey">
+</p>
 
 ---
 
