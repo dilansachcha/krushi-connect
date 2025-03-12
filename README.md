@@ -74,6 +74,7 @@ app/src/main/
 # Select a device (Emulator/Physical)
 # The app should launch successfully 🚀
 
+
 ---
 
 ## 👨‍💻 Contribution Guidelines
@@ -86,6 +87,7 @@ app/src/main/
 4️⃣ Push the branch → `git push origin feature-name`  
 5️⃣ Submit a Pull Request
 
+```
 ---
 
 ## 📌 Roadmap (Future Updates)
