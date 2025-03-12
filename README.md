@@ -79,13 +79,14 @@ app/src/main/
 
 ## 👨‍💻 Contribution Guidelines
 
-# Contributions are welcome! Here’s how you can contribute:
+Contributions are welcome! Here’s how you can contribute:
 
 1️⃣ Fork the repository  
 2️⃣ Create a new branch → `git checkout -b feature-name`  
 3️⃣ Commit your changes → `git commit -m "Added new feature"`  
 4️⃣ Push the branch → `git push origin feature-name`  
 5️⃣ Submit a Pull Request
+
 ---
 
 ## 📌 Roadmap (Future Updates)
