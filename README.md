@@ -1,4 +1,3 @@
-<img width="394" height="903" alt="Picture1" src="https://github.com/user-attachments/assets/69ccec72-4985-47f8-aadc-f799b30f50f4" />
 <p align="center">
   <img src="https://github.com/dilansachcha/krushi-connect/blob/main/krshcnnct.png?raw=true" width="150">
 </p>
