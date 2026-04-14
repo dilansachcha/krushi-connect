@@ -44,7 +44,7 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 | <img src="https://github.com/user-attachments/assets/b09a4512-0219-4b1e-b025-f65c5b5a7d5f" width="200" /> | <img src="https://github.com/user-attachments/assets/39f317ea-92d2-40bb-82b4-2e48fe744ed6" width="200" /> | <img src="https://github.com/user-attachments/assets/d9444a6e-620c-4f55-b3b4-43def5f6a708" width="200" /> | <img src="https://github.com/user-attachments/assets/b27d3f6a-370f-4821-a303-b34194e4e36c" width="200" /> |
 
 ### 📍 Maps & Order Tracking
-| Customer Order Page<br><sub>(External Google Map & Telephony)</sub> | Travel Directions<br><sub>(Pick-Up Status)</sub> | Global Map View<br><sub>(Locations of All Products)</sub> |
+| Customer Order Page<br><sub>(Integrated External Google Maps Intent & Telephony)</sub> | Travel Directions<br><sub>User to Farmer (Delivery Status: PickUp)</sub> | Full Product List Map View<br><sub>(Locations of All Products)</sub> |
 | :---: | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/3e306977-7adb-4b15-b2ff-6398e1bd09ce" width="200" /> | <img src="https://github.com/user-attachments/assets/423f9eb6-d53a-413a-ab7e-355681eace2d" width="200" /> | <img src="https://github.com/user-attachments/assets/8c7fa368-f129-4f8b-a400-592344205aae" width="200" /> |
 
