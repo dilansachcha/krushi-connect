@@ -26,6 +26,17 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 
 ---
 
+## 📚 Project Documentation
+
+Want to dive deeper into the system architecture, database design, and project planning? 
+
+* [📄 Read the Full Project Document](./KushiConnectProjectDoc.pdf)
+* [📊 View the Project Presentation](./PresentationKrushiConnect.pptx)
+
+*(Note: Click the links above to view the PDF files directly in GitHub).*
+
+---
+
 ## 📸 Screenshots & Demo
 
 ### 🔐 Authentication & Main Screens
