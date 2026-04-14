@@ -28,9 +28,30 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 
 ## 📸 Screenshots & Demo
 
-| Home Screen (General) | Home Screen (Logged-In) | Customer SignIn | Farmer SignIn | Admin Login | Products Page | Single Product View (Carousel) | Login before Adding Products to Cart | User Cart | PayHere Payment Gateway Integration | Order Confirmation | Downloadable Receipt for the Order | Customer Profile (Edit Details & Change Password through confrimation) | Customer Order Page (Integrated with External Google Map Intent Version and Telephony) | The Direction for the User to Travel to Farmer (When Delivery Status is: Pick-Up | Farmer Product Adding | Admin Product Approval (Before Listing) | Farmer Updating Product Stock (Only for Admin Approved Products) | Google Maps externally displaying where products were added from throughout the country (When clicked on “View Locations of Products on Map” in Products Page)
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" width="220" /> | <img src="https://github.com/user-attachments/assets/e410581f-46dd-485e-9dfd-1bfd00566fcf" width="220" /> | <img src="https://github.com/user-attachments/assets/d524f436-c489-4d14-b4b1-f5ef9c2bcf41" width="220" /> | <img src="https://github.com/user-attachments/assets/8f78538c-caf3-4a0d-9520-b0e6a0d1ce23" width="220" /> | <img width="340" height="780" alt="Picture5" src="https://github.com/user-attachments/assets/8e58b105-2de2-4f55-a207-bd48e0434b5d" /> | <img width="338" height="774" alt="Picture6" src="https://github.com/user-attachments/assets/54a8d283-763c-4ea9-a4f8-d5dcecb60de0" /> | <img width="338" height="777" alt="Picture7" src="https://github.com/user-attachments/assets/64c7dc1a-bfeb-43a3-b23b-436ecd17e0c4" /> | <img width="337" height="772" alt="Picture8" src="https://github.com/user-attachments/assets/9a11ca2d-f1c3-4e35-86ca-14e123fbccfb" /> | <img width="364" height="834" alt="Picture9" src="https://github.com/user-attachments/assets/1a1dd516-4647-42fc-a034-52f6d6dffe2d" /> | <img width="364" height="835" alt="Picture10" src="https://github.com/user-attachments/assets/b09a4512-0219-4b1e-b025-f65c5b5a7d5f" /> | <img width="337" height="772" alt="Picture11" src="https://github.com/user-attachments/assets/39f317ea-92d2-40bb-82b4-2e48fe744ed6" /> | <img width="335" height="768" alt="Picture12" src="https://github.com/user-attachments/assets/d9444a6e-620c-4f55-b3b4-43def5f6a708" /> | <img width="358" height="819" alt="Picture13" src="https://github.com/user-attachments/assets/b27d3f6a-370f-4821-a303-b34194e4e36c" /> | <img width="362" height="829" alt="Picture14" src="https://github.com/user-attachments/assets/3e306977-7adb-4b15-b2ff-6398e1bd09ce" /> | <img width="362" height="844" alt="Picture15" src="https://github.com/user-attachments/assets/423f9eb6-d53a-413a-ab7e-355681eace2d" /> | <img width="369" height="846" alt="Picture17" src="https://github.com/user-attachments/assets/c4ae499b-898f-4cd2-8596-a7072e5a7e1f" /> | <img width="367" height="841" alt="Picture18" src="https://github.com/user-attachments/assets/f1ae6172-9b32-477d-9c8a-09e62e385190" /> | <img width="343" height="788" alt="Picture19" src="https://github.com/user-attachments/assets/ac22a22b-a9b8-492c-9d53-7e01677e936f" /> | <img width="341" height="782" alt="Picture20" src="https://github.com/user-attachments/assets/8c7fa368-f129-4f8b-a400-592344205aae" />
+### 🔐 Authentication & Main Screens
+| Home Screen<br><sub>(General)</sub> | Home Screen<br><sub>(Logged-In)</sub> | Customer<br>SignIn | Farmer<br>SignIn | Admin<br>Login |
+| :---: | :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" width="200" /> | <img src="https://github.com/user-attachments/assets/e410581f-46dd-485e-9dfd-1bfd00566fcf" width="200" /> | <img src="https://github.com/user-attachments/assets/d524f436-c489-4d14-b4b1-f5ef9c2bcf41" width="200" /> | <img src="https://github.com/user-attachments/assets/8f78538c-caf3-4a0d-9520-b0e6a0d1ce23" width="200" /> | <img src="https://github.com/user-attachments/assets/8e58b105-2de2-4f55-a207-bd48e0434b5d" width="200" /> |
+
+### 🛍️ Browsing & Cart
+| Products<br>Page | Single Product View<br><sub>(Carousel)</sub> | Login Before<br><sub>Adding to Cart</sub> | User<br>Cart |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/54a8d283-763c-4ea9-a4f8-d5dcecb60de0" width="200" /> | <img src="https://github.com/user-attachments/assets/64c7dc1a-bfeb-43a3-b23b-436ecd17e0c4" width="200" /> | <img src="https://github.com/user-attachments/assets/9a11ca2d-f1c3-4e35-86ca-14e123fbccfb" width="200" /> | <img src="https://github.com/user-attachments/assets/1a1dd516-4647-42fc-a034-52f6d6dffe2d" width="200" /> |
+
+### 💳 Checkout & Profile
+| PayHere Payment<br><sub>Gateway Integration</sub> | Order<br>Confirmation | Downloadable<br><sub>Receipt for Order</sub> | Customer Profile<br><sub>(Edit Details & Password)</sub> |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/b09a4512-0219-4b1e-b025-f65c5b5a7d5f" width="200" /> | <img src="https://github.com/user-attachments/assets/39f317ea-92d2-40bb-82b4-2e48fe744ed6" width="200" /> | <img src="https://github.com/user-attachments/assets/d9444a6e-620c-4f55-b3b4-43def5f6a708" width="200" /> | <img src="https://github.com/user-attachments/assets/b27d3f6a-370f-4821-a303-b34194e4e36c" width="200" /> |
+
+### 📍 Maps & Order Tracking
+| Customer Order Page<br><sub>(External Google Map & Telephony)</sub> | Travel Directions<br><sub>(Pick-Up Status)</sub> | Global Map View<br><sub>(Locations of All Products)</sub> |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/3e306977-7adb-4b15-b2ff-6398e1bd09ce" width="200" /> | <img src="https://github.com/user-attachments/assets/423f9eb6-d53a-413a-ab7e-355681eace2d" width="200" /> | <img src="https://github.com/user-attachments/assets/8c7fa368-f129-4f8b-a400-592344205aae" width="200" /> |
+
+### ⚙️ Admin & Farmer Dashboard
+| Farmer Product<br>Adding | Admin Product<br><sub>Approval (Before Listing)</sub> | Farmer Updating Stock<br><sub>(Only Approved Products)</sub> |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/c4ae499b-898f-4cd2-8596-a7072e5a7e1f" width="200" /> | <img src="https://github.com/user-attachments/assets/f1ae6172-9b32-477d-9c8a-09e62e385190" width="200" /> | <img src="https://github.com/user-attachments/assets/ac22a22b-a9b8-492c-9d53-7e01677e936f" width="200" /> |
 
 ---
 
