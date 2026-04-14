@@ -27,7 +27,6 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 ---
 
 ## 📸 Screenshots & Demo
-_Add high-quality screenshots here_
 
 | Farmer Dashboard | Customer Orders | Product Details |
 |------------------|----------------|-----------------|
