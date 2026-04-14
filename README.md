@@ -1,3 +1,4 @@
+<img width="394" height="903" alt="Picture1" src="https://github.com/user-attachments/assets/69ccec72-4985-47f8-aadc-f799b30f50f4" />
 <p align="center">
   <img src="https://github.com/dilansachcha/krushi-connect/blob/main/krshcnnct.png?raw=true" width="150">
 </p>
@@ -28,9 +29,10 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 
 ## 📸 Screenshots & Demo
 
-| Farmer Dashboard | Customer Orders | Product Details |
+| Home Screen | Customer Orders | Product Details |
 |------------------|----------------|-----------------|
-| ![Farmer Dashboard](link-to-image) | ![Customer Orders](link-to-image) | ![Product Details](link-to-image) |
+| ![Home Screen](link-to<img width="394" height="903" alt="Picture1" src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" />
+-image) | ![Customer Orders](link-to-image) | ![Product Details](link-to-image) |
 
 ---
 
