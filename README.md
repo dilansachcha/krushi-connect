@@ -28,14 +28,9 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 
 ## 📸 Screenshots & Demo
 
-| Home Screen (General) | Home Screen (Logged-In | Customer SignIn (same for Farmer) | Customer SignIn (same for Farmer) |
-|------------------|----------------|-----------------|-----------------|
-| <img width="394" height="903" alt="Picture1" src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" />
-| <img width="392" height="898" alt="Picture2" src="https://github.com/user-attachments/assets/e410581f-46dd-485e-9dfd-1bfd00566fcf" />
-| <img width="340" height="780" alt="Picture3" src="https://github.com/user-attachments/assets/d524f436-c489-4d14-b4b1-f5ef9c2bcf41" />
-| <img width="362" height="782" alt="Picture4" src="https://github.com/user-attachments/assets/8f78538c-caf3-4a0d-9520-b0e6a0d1ce23" />
-|
-
+| Home Screen (General) | Home Screen (Logged-In) | Customer SignIn | Farmer SignIn |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" width="220" /> | <img src="https://github.com/user-attachments/assets/e410581f-46dd-485e-9dfd-1bfd00566fcf" width="220" /> | <img src="https://github.com/user-attachments/assets/d524f436-c489-4d14-b4b1-f5ef9c2bcf41" width="220" /> | <img src="https://github.com/user-attachments/assets/8f78538c-caf3-4a0d-9520-b0e6a0d1ce23" width="220" /> |
 
 ---
 
