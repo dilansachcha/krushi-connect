@@ -28,9 +28,10 @@ At the same time, **consumers can buy directly** from verified farmers, ensuring
 
 ## 📸 Screenshots & Demo
 
-| Home Screen (General) | Home Screen (Logged-In) | Customer SignIn | Farmer SignIn |
-| :---: | :---: | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" width="220" /> | <img src="https://github.com/user-attachments/assets/e410581f-46dd-485e-9dfd-1bfd00566fcf" width="220" /> | <img src="https://github.com/user-attachments/assets/d524f436-c489-4d14-b4b1-f5ef9c2bcf41" width="220" /> | <img src="https://github.com/user-attachments/assets/8f78538c-caf3-4a0d-9520-b0e6a0d1ce23" width="220" /> |
+| Home Screen (General) | Home Screen (Logged-In) | Customer SignIn | Farmer SignIn | Admin Login | Add Products | Single Product View (Carousel) | Login before Adding Products to Cart | User Cart | PayHere Payment Gateway Integration | Order Confirmation | Downloadable Receipt for the Order | Customer Profile (Edit Details & Change Password through confrimation) | Customer Order Page (Integrated with External Google Map Intent Version and Telephony) | The Direction for the User to Travel to Farmer (When Delivery Status is: Pick-Up | Figure 17 – Farmer Product Adding | Admin Product Approval (Before Listing) | Farmer Updating Product Stock (Only for Admin Approved Products) | Google Maps externally displaying where products were added from throughout the country (When clicked on “View Locations of Products on Map” in Products Page)
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/c32ffad5-fc51-486b-959e-63c32df92f8d" width="220" /> | <img src="https://github.com/user-attachments/assets/e410581f-46dd-485e-9dfd-1bfd00566fcf" width="220" /> | <img src="https://github.com/user-attachments/assets/d524f436-c489-4d14-b4b1-f5ef9c2bcf41" width="220" /> | <img src="https://github.com/user-attachments/assets/8f78538c-caf3-4a0d-9520-b0e6a0d1ce23" width="220" /> | <img width="340" height="780" alt="Picture5" src="https://github.com/user-attachments/assets/8e58b105-2de2-4f55-a207-bd48e0434b5d" /> |
+
 
 ---
 
