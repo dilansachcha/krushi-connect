@@ -88,30 +88,35 @@ Want to dive deeper into the system architecture, database design, and project p
 ---
 
 ## 📥 Installation & Setup
-Follow these steps to **clone, set up, and run** Krushi-Connect:
-```bash
 
-1. Clone the Repository
-- git clone https://github.com/dilansachcha/krushi-connect.git
-- cd krushi-connect
+### 📱 The Easy Way (For Users & Recruiters)
+Want to test the app right now without setting up a coding environment?
+1. Download the latest Android APK from our Releases page: 
+   **[📥 Download KrushiConnect_v1.0.apk here](https://github.com/dilansachcha/krushi-connect/releases/tag/v1.0.0)**
+2. Transfer the `.apk` file to your Android device (or just download it directly using your phone's browser).
+3. Tap the file to install *(Ensure "Install from Unknown Sources" is enabled in your Android settings)*.
 
-2. Open in Android Studio
-- Open Android Studio
-- Click "Open an Existing Project"
-- Select the "krushi-connect" folder
+---
 
-3. Setup Firebase
-- Go to Firebase Console → Create a new project
-- Enable Authentication, Firestore Database, and Storage
-- Download the google-services.json file and place it in: app/src/main/
+### 💻 The Developer Way (Building from Source)
+If you want to view or modify the codebase, follow these steps:
 
-4. Build & Run
-- Open Android Studio
-- Click "Run"
-- Select a device (Emulator/Physical)
-- The app should launch successfully 🚀
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/dilansachcha/krushi-connect.git](https://github.com/dilansachcha/krushi-connect.git)
+   cd krushi-connect
+   ```
 
-```
+2. **Open in Android Studio**
+   - Click "Open an Existing Project" and select the `krushi-connect` folder.
+
+3. **Setup Firebase Environment**
+   - Go to Firebase Console → Create a new project.
+   - Enable Authentication, Firestore Database, and Storage.
+   - Download your new `google-services.json` file and place it in the `app/` directory. *(Note: The repository's `.gitignore` keeps API keys hidden for security).*
+
+4. **Build & Run**
+   - Click "Run" in Android Studio and select an emulator or physical device. 🚀
 ---
 
 ## 👨‍💻 Contribution Guidelines
